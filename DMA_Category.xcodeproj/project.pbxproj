@@ -9,20 +9,18 @@
 /* Begin PBXBuildFile section */
 		0FE7ACDBAA10044AFB0D6F40 /* libPods-DMA_Category.a in Frameworks */ = {isa = PBXBuildFile; fileRef = AC29C298886A83C8F27284AE /* libPods-DMA_Category.a */; };
 		6966045E20F4561F00988305 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 6966045D20F4561F00988305 /* AppDelegate.m */; };
-		6966046120F4561F00988305 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 6966046020F4561F00988305 /* ViewController.m */; };
 		6966046420F4561F00988305 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 6966046220F4561F00988305 /* Main.storyboard */; };
 		6966046620F4562000988305 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 6966046520F4562000988305 /* Assets.xcassets */; };
 		6966046920F4562000988305 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 6966046720F4562000988305 /* LaunchScreen.storyboard */; };
 		6966046C20F4562000988305 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 6966046B20F4562000988305 /* main.m */; };
 		6966047520F45B2B00988305 /* DMMediator+DMA.m in Sources */ = {isa = PBXBuildFile; fileRef = 6966047420F45B2B00988305 /* DMMediator+DMA.m */; };
+		696604A820F4D41A00988305 /* RootViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 696604A720F4D41A00988305 /* RootViewController.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
 		6966045920F4561F00988305 /* DMA_Category.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = DMA_Category.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		6966045C20F4561F00988305 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
 		6966045D20F4561F00988305 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
-		6966045F20F4561F00988305 /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
-		6966046020F4561F00988305 /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
 		6966046320F4561F00988305 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		6966046520F4562000988305 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		6966046820F4562000988305 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
@@ -30,6 +28,8 @@
 		6966046B20F4562000988305 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
 		6966047320F45B2B00988305 /* DMMediator+DMA.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "DMMediator+DMA.h"; sourceTree = "<group>"; };
 		6966047420F45B2B00988305 /* DMMediator+DMA.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = "DMMediator+DMA.m"; sourceTree = "<group>"; };
+		696604A620F4D41A00988305 /* RootViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = RootViewController.h; sourceTree = "<group>"; };
+		696604A720F4D41A00988305 /* RootViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = RootViewController.m; sourceTree = "<group>"; };
 		8A7C0CBABAED09639ED57818 /* Pods-DMA_Category.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-DMA_Category.release.xcconfig"; path = "Pods/Target Support Files/Pods-DMA_Category/Pods-DMA_Category.release.xcconfig"; sourceTree = "<group>"; };
 		AC29C298886A83C8F27284AE /* libPods-DMA_Category.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-DMA_Category.a"; sourceTree = BUILT_PRODUCTS_DIR; };
 		BBFB9B083A1520B990686F75 /* Pods-DMA_Category.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-DMA_Category.debug.xcconfig"; path = "Pods/Target Support Files/Pods-DMA_Category/Pods-DMA_Category.debug.xcconfig"; sourceTree = "<group>"; };
@@ -80,8 +80,8 @@
 				6966047220F457E900988305 /* DMA_Category */,
 				6966045C20F4561F00988305 /* AppDelegate.h */,
 				6966045D20F4561F00988305 /* AppDelegate.m */,
-				6966045F20F4561F00988305 /* ViewController.h */,
-				6966046020F4561F00988305 /* ViewController.m */,
+				696604A620F4D41A00988305 /* RootViewController.h */,
+				696604A720F4D41A00988305 /* RootViewController.m */,
 				6966046220F4561F00988305 /* Main.storyboard */,
 				6966046520F4562000988305 /* Assets.xcassets */,
 				6966046720F4562000988305 /* LaunchScreen.storyboard */,
@@ -200,9 +200,9 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				6966046120F4561F00988305 /* ViewController.m in Sources */,
 				6966046C20F4562000988305 /* main.m in Sources */,
 				6966047520F45B2B00988305 /* DMMediator+DMA.m in Sources */,
+				696604A820F4D41A00988305 /* RootViewController.m in Sources */,
 				6966045E20F4561F00988305 /* AppDelegate.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;

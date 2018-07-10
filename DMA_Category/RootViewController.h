@@ -1,5 +1,5 @@
 //
-//  ViewController.h
+//  RootViewController.h
 //  DMA_Category
 //
 //  Created by JackZ86 on 2018/7/10.
@@ -8,8 +8,6 @@
 
 #import <UIKit/UIKit.h>
 
-@interface ViewController : UIViewController
-
+@interface RootViewController : UIViewController
 
 @end
-
