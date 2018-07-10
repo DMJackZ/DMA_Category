@@ -6,7 +6,7 @@
 //  Copyright © 2018年 DiMi. All rights reserved.
 //
 
-#import "DMMediator.h"
+#import <DMMediator/DMMediator.h>
 
 @interface DMMediator (DMA)
 
